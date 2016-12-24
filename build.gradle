@@ -24,5 +24,4 @@ dependencies {
 task run(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     main = mainClass;
-    jvmArgs = ['-Dprism.forceGPU=true', '-Dprism.verbose=true', '-Dprism.order=es2,d3d,sw']
 }
