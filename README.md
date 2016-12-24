@@ -1,6 +1,6 @@
 # VUGShell-Sample
 
-## How to Build VUGShell-Sample
+## How to Build and Run VUGShell-Sample
 
 ### Requirements
 
@@ -10,8 +10,8 @@
 
 ### IDE
 
-Open the `VUGShell-Sample` [Gradle](http://www.gradle.org/) project in your favourite IDE (tested with NetBeans 8.2) and build it
-by calling the `assemble` task.
+Open the `VUGShell-Sample` [Gradle](http://www.gradle.org/) project in your favourite IDE (tested with NetBeans 8.2) and run it
+by calling the `run` task.
 
 ### Command Line
 
@@ -19,8 +19,8 @@ Navigate to the [Gradle](http://www.gradle.org/) project (e.g., `VUGShell-Sample
 
 #### Bash (Linux/OS X/Cygwin/other Unix-like shell)
 
-    sh gradlew assemble
+    bash gradlew run
     
 #### Windows (CMD)
 
-    gradlew assemble
+    gradlew run
