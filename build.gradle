@@ -20,3 +20,9 @@ dependencies {
     // binary ug distribution
     compile group: 'eu.mihosoft.ugshell.ugdist', name: 'ugshell-dist', version: '2016.1.1'
 }
+
+task run(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = mainClass;
+    jvmArgs = ['-Dprism.forceGPU=true', '-Dprism.verbose=true', '-Dprism.order=es2,d3d,sw']
+}
