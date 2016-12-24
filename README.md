@@ -1,5 +1,24 @@
 # VUGShell-Sample
 
+## How to Run UGShell via Java
+
+```java
+package eu.mihosoft.ugshellsample;
+
+import eu.mihosoft.ugshell.vugshell.Shell;
+import java.io.File;
+
+public class Main {
+    public static void main(String[] args) {
+        String code = ""
+                + "sum = 2 + 3\n"
+                + "print(\"Hello from Java!\")\n"
+                + "print(\"Result: \"..sum)";
+        Shell.execute(new File("."), code).print().waitFor();
+    }
+}
+```
+
 ## How to Build and Run VUGShell-Sample
 
 ### Requirements
