@@ -18,11 +18,11 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.10'
-    compile group: 'eu.mihosoft.ugshell.vugshell', name: 'vugshell', version: '2016.1.4'
-    compile group: 'eu.mihosoft.ugshell.vugshell', name: 'vugshell', version: '2016.1.4', classifier: 'sources'
+    compile group: 'eu.mihosoft.ugshell.vugshell', name: 'vugshell', version: '2016.1.6'
+    compile group: 'eu.mihosoft.ugshell.vugshell', name: 'vugshell', version: '2016.1.6', classifier: 'sources'
     
     // binary ug distribution
-    compile group: 'eu.mihosoft.ugshell.ugdist', name: 'ugshell-dist', version: '2016.1.2'
+    compile group: 'eu.mihosoft.ugshell.ugdist', name: 'ugshell-dist', version: '2016.1.5'
 }
 
 task run(type: JavaExec) {
