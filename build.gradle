@@ -18,7 +18,7 @@ dependencies {
     compile group: 'eu.mihosoft.ugshell.vugshell', name: 'vugshell', version: '2016.1.4', classifier: 'sources'
     
     // binary ug distribution
-    compile group: 'eu.mihosoft.ugshell.ugdist', name: 'ugshell-dist', version: '2016.1.1'
+    compile group: 'eu.mihosoft.ugshell.ugdist', name: 'ugshell-dist', version: '2016.1.2'
 }
 
 task run(type: JavaExec) {
